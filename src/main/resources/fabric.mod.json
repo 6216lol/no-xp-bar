@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "noxpbar",
+  "version": "${version}",
+
+  "name": "No more XP bar!",
+  "description": "Removed the XP bar and places your XP in the top-left corner.",
+  "authors": [
+    "6216"
+  ],
+  "contact": {
+    "homepage": "https://reddit.net/u/LongCommenter",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.lol6216.classicui.start"
+    ]
+  },
+  "mixins": [
+    "noxpbar.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "fabricloader": ">=0.14.6",
+    "minecraft": ">=1.14",
+    "java": ">=17"
+  }
+}
