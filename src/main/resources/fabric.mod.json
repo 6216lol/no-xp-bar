@@ -4,17 +4,17 @@
   "version": "${version}",
 
   "name": "No more XP bar!",
-  "description": "Removed the XP bar and places your XP in the top-left corner.",
+  "description": "Removes the XP bar and places your XP in the top-left corner.",
   "authors": [
-    "6216"
+    "6216lol"
   ],
   "contact": {
-    "homepage": "https://reddit.net/u/LongCommenter",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/no-xp-bar",
+    "sources": "https://github.com/6216lol/no-xp-bar"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/noxpbar/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -29,11 +29,6 @@
   "depends": {
     "fabricloader": ">=0.14.6",
     "minecraft": ">=1.19",
-    "java": ">=17"
-  },
-  "suggests": {
-    "fabricloader": ">=0.14.6",
-    "minecraft": ">=1.14",
     "java": ">=17"
   }
 }
